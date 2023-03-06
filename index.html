@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styling.css" />
+  </head>
+  <body>
+    <section class="outside">
+      <div class="back_ground">
+        <form action="index.php" method="post" enctype="multipart/form-data" class="form">
+          <div class="heading">
+            <h2>Application For Permission To Date My Daughter</h2>
+            <p>
+              <span>Note:</span> Form is to be completed atleast 21 days prior
+              to date
+            </p>
+          </div>
+          <fieldset>
+            <legend>Personal Details</legend>
+            <div class="name">
+              <label for="Name">Name:</label>
+              <input type="text" id="Name" name="username" placeholder="Name" />
+            </div>
+            <div class="Adress">
+              <label for="Address">Adress:</label>
+              <input
+                type="text"
+                id="Adress"
+                name="Adress"
+                placeholder="Adress"
+              />
+            </div>
+            <div class="Email">
+              <label for="Email">Email:</label>
+              <input
+                type="email"
+                id="Email"
+                name="Email"
+                placeholder="Email Address"
+              />
+            </div>
+            <div class="Phone">
+              <label for="Phone">Phone Number:</label>
+              <input
+                type="number"
+                id="Phone"
+                name="Phone"
+                placeholder="Phone number"
+              />
+            </div>
+            <div class="IQ">
+              <label for="IQ">IQ:</label>
+              <input
+                type="number"
+                id="IQ"
+                name="IQ"
+                size="90"
+                placeholder="your IQ"
+                min="0"
+                max="999"
+              />
+            </div>
+            <div class="Gender">
+              <p class="gender-p">Gender</p>
+              <input type="radio" id="Male" name="gender" value="m" />
+              <label for="Male">Male</label><br />
+              <input type="radio" id="Female" name="gender" value="f>
+              <label for="Female">Female</label><br />
+              <input type="radio" id="Other" name="gender" value="o" />
+              <label for="Other">Other</label>
+            </div>
+            <div class="Date">
+              <label for="Date">Date of Proposed Outing:</label>
+              <input type="date" id="Date" name="date" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <p class="Check-all">Check all that apply</p>
+            <input
+              type="checkbox"
+              id="description1"
+              name="description[]"
+              value="tattooed-or-pierced"
+            />
+            <label for="description1">I have tattoos and/or piercings</label
+            ><br />
+            <input
+              type="checkbox"
+              id="description2"
+              name="description[]"
+              value="2-years-and-older"
+            />
+            <label for="description2">
+              I am more than 2 years older than my daughter</label
+            ><br />
+            <input
+              type="checkbox"
+              id="description3"
+              name="description[]"
+              value="nice-car"
+            />
+            <label for="description3"> I own a panel van or V8 utet</label
+            ><br />
+            <input
+              type="checkbox"
+              id="description4"
+              name="description[]"
+              value="full-time-work"
+            />
+            <label for="description4"> I work full-time</label><br />
+            <input
+              type="checkbox"
+              id="description5"
+              name="description[]"
+              value="rich-parents"
+            />
+            <label for="description5"> My parents are rich</label><br />
+            <input
+              type="checkbox"
+              id="description6"
+              name="description[]"
+              value="Nice location"
+            />
+            <label for="description6">
+              Is the date at a well lit public location</label
+            ><br />
+          </fieldset>
+
+          <fieldset>
+            <label for="politics">Political Persuasion:</label>
+            <select name="politics" id="politics">
+              <option value="Left Wing">Left wing</option>
+              <option value="Right Wing">Right wing</option>
+              <option value="Conservative">Conservative</option>
+            </select>
+            <label for="education"> Education Level Completed:</label>
+            <select name="education" id="education">
+              <option value="University">University</option>
+              <option value="College">College</option>
+              <option value="Highschool">Highschool</option>
+              <option value="None">None</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Essay Section</legend>
+            <p>In 50 words or more explain why you want to date my daughter</p>
+            <textarea
+              name="essay"
+              id="essay"
+              cols="40"
+              rows="4"
+              placeholder="Enter text here"
+              value="essay"
+            ></textarea>
+            <p>Please upload contact details for 2 references</p>
+            <textarea
+              name="references"
+              id="references"
+              cols="40"
+              rows="4"
+              placeholder="Enter text here"
+              value="references"
+            ></textarea>
+
+            <p>
+              Police Clearance Certificate, Bank Statement and Medical
+              Certifiates here:
+            </p>
+            <div class="file-input">
+              <label>
+                <input type="file" name="file" />
+              </label>
+            </div>
+          </fieldset>
+          <div id ="submit-btn-container">
+              <input type="submit" id = "submit-btn" name="submit">
+          </div>
+        </form>
+      </div>
+    </section>
+
+
+    
+  </body>
+</html>

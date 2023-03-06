@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Anaheim&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-size: 1.2em;
+  font-family: "Anaheim";
+}
+
+.back_ground {
+  margin: 1em 0.5em;
+  background-color: lightgoldenrodyellow;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.form {
+  margin: 0 auto;
+  width: 70%;
+  background: rgb(255, 253, 253);
+  justify-content: center;
+  border: 1px solid #7c7c7c;
+  padding: 2em;
+  border-radius: 2%;
+}
+h2 {
+  text-align: center;
+}
+span {
+  font-weight: 700;
+}
+legend {
+  font-weight: 700;
+}
+fieldset {
+  margin-top: 0.4em;
+  border: 1px solid #b9b9b9;
+}
+button {
+  text-transform: capitalize;
+  padding: 0.2em;
+  margin: 0.5;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 1em;
+}
+#IQ,
+#Phone {
+  width: 147px;
+}
+div {
+  line-height: 35px;
+}
+.submit-cta {
+  margin-top: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+textarea:focus {
+  border-color: orangered;
+}
+#submit-btn-container{
+    display: flex;
+    justify-content: center;
+}

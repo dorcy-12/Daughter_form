@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Anaheim&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 1.2em;
+  font-family: "Anaheim";
+}
+
+.back_ground {
+  margin: 1em 0.5em;
+  background-color: lightgoldenrodyellow;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
+  background: #fffdfd;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #7c7c7c;
+  padding: 2em;
+  border-radius: 2%;
+}
+
+h2 {
+  text-align: center;
+}
+
+span {
+  font-weight: 700;
+}
+
+legend {
+  font-weight: 700;
+}
+
+fieldset {
+  margin-top: 0.4em;
+  border: 1px solid #b9b9b9;
+}
+
+button {
+  text-transform: capitalize;
+  padding: 0.2em;
+  margin: 0.5;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 2px;
+  font-size: 1em;
+}
+
+#IQ,
+#Phone {
+  width: 147px;
+}
+
+div {
+  line-height: 35px;
+}
+
+.submit-cta {
+  margin-top: 0.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+textarea:focus {
+  border-color: orangered;
+}
+#submit-btn-container{
+  display: flex;
+  margin-top: 10px ;
+  padding:10px 0px 10px 0px;
+  justify-content: center;
+}
+#submit-btn{
+  width: 100px; 
+  padding: 10px 20px 10px 20px;
+  background-color: #1d8dd3;
+  border-radius: 0.5em;
+  font-size: large;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
+
+
+/*# sourceMappingURL=styling.css.map */
